@@ -71,7 +71,7 @@ switch (answer)
     case "нет":
         {
             string[] arrayInit = { "hello", "2", "world", ":-)" };
-            Console.WriteLine("Будет использоваться массив из примера");
+            Console.WriteLine("Данные из примера");
             PrintInitArray(arrayInit);
             Console.WriteLine();
             PrintResultArray(CreateResultArray(arrayInit, limit));
@@ -79,7 +79,7 @@ switch (answer)
         }
     default:   
         {
-            Console.WriteLine("введено некорректное знаение (работает только 'yes' или 'no')");
+            Console.WriteLine("введено некорректное знаение (работает только 'да' или 'нет')");
             Console.WriteLine("перезапустите программу и введите корректное значение");
             break;
         }
